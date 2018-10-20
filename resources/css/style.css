@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #070707;
+    font-family: 'Lato' 'Arial' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+} 
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(75, 72, 72, 0.57),rgba(75, 72, 72, 0.57)), url(img/bg.JPG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 240%;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: auto;
+    top: 55%;
+    left: 65%;
+    transform:translate(-50% ,-50%); 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #1aa04d;
+    color: #fff;
+    border: 1px solid #1aa04d ;
+    margin-top: 20px;
+        
+}
+
+.btn:hover {
+    background-color: #11843d;
+}
+
+.logo {
+    height:100px;
+    width: auto;
+    float: left;
+    margin-top: 20px
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.4s;
+    padding: 8px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px solid #11843d;
+    
+}
+
+.section-about {
+    padding: 50px 0; 
+}
+
+h2 {
+     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #11843d;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    
+}
+
+.large-icon {
+    font-size: 400%;
+    display: block;
+    color: #11843d;
+    text-align: center;
+    
+}
+
+.special {
+    width: 35%;
+    margin-left: 35%;
+    margin-right: 30%;
+    
+}
+
+.long-copy {
+    margin-top: 20px;
+    line-height: 145%;
+    
+    text-align: justify;
+}
+
+.categories {
+    list-style: none;
+    width: 100%;
+}
+
+.items {
+    width: 100%;
+    margin: 0;
+}
+.items img {
+    width: 100%;
+    height: 300px;
+    margin-right: 20px;
+}

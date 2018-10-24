@@ -1,2 +1,2 @@
 # bfabrics
-Beautiful fabrics is a online fashion store exclusively for women
+Beautiful fabrics is an online fashion store exclusively for women
